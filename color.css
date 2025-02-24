@@ -1,0 +1,84 @@
+:root {
+	--primaryColor: #f85606;
+	--secondaryColor: #75378C;
+	--dangerColor: #FF3F93;
+}
+
+.navbar{
+	background: var(--primaryColor);
+}
+#header-fix .logo-bar {    
+	background: var(--primaryColor);
+}
+.text-danger{
+	color: var(--dangerColor) !important;
+}
+.text-secondary{
+	color: var(--secondaryColor) !important;
+}
+.text-primary{
+	color: var(--primaryColor) !important;
+}
+.text-success{
+	color: green !important;
+}
+
+.foot-menu .active-mn i {
+	color: var(--primaryColor);
+}
+.foot-menu .active-mn p {
+	color: var(--primaryColor);
+}
+
+.btn-outline-danger {
+	color: var(--primaryColor);
+	border-color: var(--primaryColor);
+}
+.btn-outline-danger:hover {
+	color: #fff;
+	background: var(--primaryColor);
+	border-color: var(--primaryColor);
+}
+.btn-outline-danger:focus {
+	color: #fff;
+	background: var(--primaryColor)!important;
+	border-color: var(--primaryColor)!important;
+}
+.btn-danger {
+	background-color: var(--primaryColor)!important;
+	border-color: var(--primaryColor)!important;
+}
+.btn-danger:hover {
+	background-color: var(--primaryColor) !important;
+	border-color: var(--primaryColor) !important;
+}
+
+.dashboard-box p{
+	color: #555555 !important;
+}
+
+.dash-icon-container i {
+	color: var(--primaryColor) !important;
+}
+
+.page-title {
+	color: var(--secondaryColor);
+}
+
+.sidebar .sidebar-menu > li .active > a {
+	color: var(--secondaryColor);
+}
+
+.category-column .category-name{
+	color: var(--secondaryColor) !important;
+}
+
+.app-web-header{
+	background: var(--primaryColor) !important;
+}
+.app-web-header .navbar-collapse{
+	background: var(--primaryColor) !important;
+}
+.web-app-footer{
+	background: var(--primaryColor);
+}

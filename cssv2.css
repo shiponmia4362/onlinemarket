@@ -1,0 +1,140 @@
+:root {
+    --sidebarbg: #fff;
+    --sidebarcolor: #6c757d;
+    --sidebarbordercolor: rgba(72, 94, 144, 0.16);
+    --sidebaractivecolor: #4c75f2;
+    --sidebarheadingcolor: #6c757d;
+    --sidebarheadingbackground: #fff;
+    --logobg: #fff;
+    --logocolor: #4c75f2;
+    --headerbackground: #fff;
+    --headercolor: #292b3a;
+    --searchcolor: #292b3a;
+    --primarycolor: #1e3d73;
+    --bodycolor: #292b3a;
+    --bodybackground: #f6f6f7;
+    --bordercolor: rgba(72, 94, 144, 0.16);
+    --mainbackground: #fff;
+    --secondary: #6c757d;
+    --success: #1ee0ac;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #ff3f93;
+    --dark: #343a40;
+    --sidebarwidth: 140px;
+  }
+  
+  
+  .dashboard-sc-area .animation-border{
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+  
+  .dashboard-sc-area .animation-border::before {
+    content: attr(content);
+    position: absolute;
+    width: 98%;
+    height: 35px;
+    z-index: 1;
+    background-color: #eee;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background: #fff;
+    font-weight: 500;
+    color: var(--danger);
+  }
+  
+  .dashboard-sc-area .animation-border::after {
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 50px;
+    background: conic-gradient(
+      #3a7cec 0%12.5%,
+      #2ca24c 12.5%25%,
+      #f1b500 25%37.5%,
+      #e33e2b 37.5%50%,
+      #3a7cec 50%62.5%,
+      #2ca24c 62.5%75%,
+      #f1b500 75%87.5%,
+      #e33e2b 87.5%100%
+    );
+    animation: border-animation 5s linear infinite;
+    -webkit-animation: border-animation 5s linear infinite;
+  }
+  
+  @keyframes border-animation {
+    to {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+    }
+  }
+  
+  .video-frame-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .video-frame-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-frame-container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .video-frame-container .btn:hover {
+    background-color: red;
+  }
+  .video-frame-container .btn:hover i{
+    color: white;
+  }
+  .video-frame-container .btn {
+    height: 90px; 
+    width: 90px;
+    border-radius: 50%;
+    background: #fff;
+    border: 4px solid;
+    border-color: red;
+    padding: 28px;
+    padding-top: 21px;
+  }
+  .video-frame-container .btn i{ 
+    color: red;
+    font-size: 40px;
+  }
+  .video-frame-container img{ 
+    width: 100%;
+    border-radius: 5px;
+  }
